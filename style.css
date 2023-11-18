@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Rubik:wght@400;600&family=Ubuntu:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Rubik','Ubuntu', sans-serif;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.fb-logo {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0px 0px 0px ;
+    background-color: #F0F2F5;
+}
+
+main {
+    width: 100vw;
+    height: 68vh;
+    display: flex;
+    justify-content: center;
+    background-color: #F0F2F5;
+}
+
+input {
+    outline: none;
+    color: #606770;
+}
+
+.main-sec {
+    width: 24.75rem;
+    height: 26rem;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px #DADDE1;
+    
+}
+
+.f-logo {
+    width: 27.5rem;
+    height: 4.954rem;
+    
+}
+
+.first-part {
+    width: 24.75rem;
+    height: 3.875rem;
+    padding: 24px 0px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.first-part h2 {
+    font-weight: 300;
+}
+
+.sec-part {
+    margin: 0px 1rem;
+    padding: 6px 0px;
+}
+
+.sec-part input {
+    width: 22.75rem;
+    height: 3.25rem;
+    padding: 14px 1rem;
+    margin-bottom: 12px;
+    border-radius: 5px ;
+    border: 1px solid #DADDE1;
+    font-size: 1rem;
+}
+.s-btn {
+    font-weight: 600;
+    background-color: #3F77F3;
+    width: 12.125rem;
+    height: 2.25rem;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    width: 22.75rem;
+    height: 3rem;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+
+.s-btn:hover {
+
+    background-color: #3c72e7;
+    }
+
+
+.links1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    font-size: 0.9rem;
+    
+    /* text-decoration: none; */
+}
+
+.links1 span {
+    display: inline-block;
+    padding-bottom: 6px;
+    color: #488CF5;
+}
+
+.lines {
+    margin: 10px 1rem;
+    width: 380px;
+    height: 16.08px;
+    /* display: flex; */
+    font-size: .8rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+.line {
+    border: 1px solid #DADDE1;
+    display: inline-block;
+    width: 150px;
+}
+.span1 {
+    margin-right: 8px;
+}
+
+.span2 {
+    margin-left: 8px;
+}
+
+.links1 a {
+    text-decoration: none;
+    color: #488CF5;
+}
+
+.links1 a:hover {
+    /* border-bottom: 1px solid #488CF5; */
+    text-decoration: underline;
+    color: #488CF5;
+}
+
+.new-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 192.61px;
+    height: 48px;
+    padding: 0 1rem;
+    border: none;
+    background-color: #4DA421;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+.foot {
+    width: 100vw;
+    height: 13.125rem;
+    padding: 8.125rem 0px 8rem 0px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.foot .link ul {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    list-style: none;
+    width: 61.25rem;
+    height: 1.75rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #DADDE1;
+    list-style: none;
+    font-size: 0.7rem;
+    text-decoration: none;
+    /* padding-top: 8px; */
+    padding: 1.5rem 0px;
+}
+
+.foot .link ul li a {
+    text-decoration: none;
+}
+
+.fa-plus {
+    width: 1.875rem;
+    height: 1.25rem;
+    background-color: #EBEDF0;
+    border-radius: 5px;
+    border: 1px solid #DADDE1;
+    text-align: center;
+    padding-top: 4px;
+    
+}
+
+.foot .links ul {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 61.25rem;
+    list-style: none;
+    text-decoration: none;
+    font-size: 0.7rem;
+    padding-top: 1rem;
+}
+
+.foot .links ul li a {
+    text-decoration: none;
+}
+
+.meta {
+    /* text-align: center; */
+    background-color: #FFFFFF;
+    width: 61.25rem;
+    margin: 0 auto;
+    padding: 1.5rem 0px;
+    font-size: 0.7rem;
+    color: #606770;
+}
